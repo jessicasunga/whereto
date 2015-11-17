@@ -39,8 +39,8 @@ Website will be critiqued in class during the final week of the semester.  You w
 
 * DJ - Business Facilitator
 * Dillon - Marketing Extraordinaire
-* Alex - Graphic Design & web development
-* Jessica - UX Design & web development
+* Alex - Graphic Design & Web development
+* Jessica - UX Design & Web development
 
 <hr>
 
