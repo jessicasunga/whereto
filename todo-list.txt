@@ -1,0 +1,34 @@
+Todo List:
+	- Jess
+		- Hi-def wireframes
+			- Grayscale digital wireframes
+		- Finish content & copy
+		- Create other branding assets
+			- Mobile interface screen
+			- Misc branding assets
+		- Look up JS stuff
+			- React.js
+			- Etc.
+		- Website development
+			- Home page
+				- Coding the animation for the tagline
+			- About page
+	- Alex
+		- Add swooshy lines to the logo
+			- Make it look like it's in motion
+		- Make a hi-def mockup from Jess' wireframes
+		- Website development
+			- Learn more / features page
+			- Contact page
+		- Content & copy supplementals
+		- Add website graphic design assets
+			- Photos	
+				- Tablet (Microsoft surface?)
+				- iPhone
+				- Android Nexus 6p
+
+
+Done List:
+	o Added foundation
+	o Use GitHub
+	o Paper wireframes
