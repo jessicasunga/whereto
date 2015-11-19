@@ -22,9 +22,46 @@ Website will be critiqued in class during the final week of the semester.  You w
 
 <hr>
 
+### Home Landing Page Copy, one page
+
+whereto - "tagline" (maybe?)
+
+1. Ever wondered what to do on a Friday night? Don't worry, we got you covered.
+
+2. Ever wondered what to do with your kids on a sunny Saturday? Don't worry, we got you covered.
+
+3. Share your experiences with the world.
+
+*Or, cover all concepts with an animation that scrolls through the words:*
+
+Ever wondered...
+
+	* what to do on a friday night?
+	* the best local day trip you can take?
+	* etc.
+	* etc.
+	
+whereto skips all the price and packaging deals and goes to straight to the avid travelers.
+
+//download on the app store:
+Apple, Android// (maybe)
+
+1. Sign up here for more information
+2. Sign up to get your trip started
+email sign up input
+
+Example Copy from "Triplagent":
+
+Who's the ideal person to show you round a new city?
+
+Someone local who shares your interests, right? Right. That's Triplagent: The insiders view of a city.
+
+<hr>
+
 ### Functional Navigation
 
-* Home
+* Home - buttons for download, social media
+* Learn More
 * Our Mission
 * About
 * Contact
