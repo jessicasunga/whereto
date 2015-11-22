@@ -1,0 +1,12 @@
+Organize
+	- Tagging allows you to categorize your trips to find exactly what you are looking for
+	- Photos seamlessly upload to your trips based on location
+	- Keep your data and trips saved and backed up with dropbox integration
+
+Create
+	- Use our trip/tour creation feature to map out your favorite experiences around town
+	- Built-in GPS naviagation helps users find your trip's stops with ease
+
+Share
+	- Put a social spin on your travel experiences
+	- Bring others on local trips with you

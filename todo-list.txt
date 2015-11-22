@@ -16,16 +16,20 @@ Todo List:
 	- Alex
 		- Add swooshy lines to the logo
 			- Make it look like it's in motion
+			+ This can come later
 		- Make a hi-def mockup from Jess' wireframes
 		- Website development
 			- Learn more / features page
 			- Contact page
+				- Name
+				- Email
+				- Message
 		- Content & copy supplementals
-		- Add website graphic design assets
-			- Photos	
-				- Tablet (Microsoft surface?)
-				- iPhone
-				- Android Nexus 6p
+		o Add website graphic design assets
+			o Photos
+				o Tablet (Microsoft surface?)
+				o iPhone
+				o Android Nexus 6p
 
 
 Done List:
