@@ -61,10 +61,9 @@ Someone local who shares your interests, right? Right. That's Triplagent: The in
 ### Functional Navigation
 
 * Home - buttons for download, social media
-* Learn More
-* Our Mission
-* About
-* Contact
+* Learn More or Features
+* About - Mission & About Founders
+* Contact - Contact form & repeat social media
 
 <hr>
 
@@ -82,6 +81,10 @@ Someone local who shares your interests, right? Right. That's Triplagent: The in
 <hr>
 
 ### Products & Services
+
+* Share
+* Create - Record
+* Organize
 
 <hr>
 
