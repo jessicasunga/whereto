@@ -30,6 +30,8 @@ Todo List:
 				o Tablet (Microsoft surface?)
 				o iPhone
 				o Android Nexus 6p
+		- Update MVP to reflect the new color scheme
+		- Put the updated MVP on GitHub
 
 
 Done List:
