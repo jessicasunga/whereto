@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #header-container {
 	width: 100%;
 	background-color: #51bfb5;
@@ -17,6 +21,11 @@
 	margin-bottom: 20px;
 }
 
+#landing-page-text h1 {
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+}
+
 #header-text p {
 	color: white;
 	font-weight: 100;
@@ -27,6 +36,24 @@
 #contact-header-container {
 	background: url(../assets/contact-hero.jpg);
 	background-size: cover;
+}
+
+/* Main Container */
+
+#main-container .spacing {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#main-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+}
+
+#main-container p {
+	text-align: justify;
 }
 
 nav ul {
@@ -60,7 +87,7 @@ form textarea {
 form .action-button {
 	background: #0d515c;
 	color: white;
-	padding: 20px 60px;
+	padding: 10px 60px;
 	font-size: 18px;
 	border: 0;
 	-webkit-border-radius: 5px;
