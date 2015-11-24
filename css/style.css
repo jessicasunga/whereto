@@ -1,5 +1,13 @@
 /* ===========  Global ============= */
 
+::-moz-selection {
+	background: #4FC0B6;
+}
+
+::selection {
+	background: #4FC0B6;
+}
+
 nav ul {
 	list-style-type: none;
 	font-size: 18px;

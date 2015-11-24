@@ -26,8 +26,9 @@ Todo List:
 				o Message
 		- Content & copy supplementals
 		- Find some Google fonts to use
-		- The Pinterest social icon is smaller than the other two
+		- The Pinterest social icon is smaller than the other twos
 		
+* 8 min presentation will focus on the value proposition for half the time and the other half going through the website
 
 Done List:
 	o Added foundation
