@@ -179,7 +179,22 @@ a:hover {
 	float: left;
 }
 
+/* =========== About Header Container: about ============= */
+
+#about-header-container {
+	background: url(../assets/about-hero.jpg);
+	background-size: cover;
+}
+
 /* =========== Founders Container: about ============= */
+
+#founders-container img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
 
 #founders-container h3 {
 	text-align: center;
@@ -189,7 +204,7 @@ a:hover {
 	font-size: .8rem;
 }
 
-/* =========== Founders Container: about ============= */
+/* =========== Mission Container: about ============= */
 
 #mission-container .panel {
 	background-color: transparent;
