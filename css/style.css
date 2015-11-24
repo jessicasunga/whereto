@@ -10,10 +10,15 @@ body {
 #header {
 	padding-top: 20px;
 	height: 500px;
+	color: white;
 }
 
 #header img {
 	width: 150px;
+}
+
+#header h1 {
+	color: white;
 }
 
 #header-text h1 {
@@ -97,6 +102,19 @@ a {
 
 a:hover {
 	color: #087475;
+}
+
+#active-link {
+	border-bottom: 2px solid white;
+	-webkit-transition: border-bottom 0.2s ease;
+	-moz-transition: border-bottom 0.2s ease;
+	-ms-transition: border-bottom 0.2s ease;
+	-o-transition: border-bottom 0.2s ease;
+	transition: border-bottom 0.2s ease;
+}
+
+#active-link:hover {
+	border-bottom: 2px solid #087475;
 }
 
 form textarea {
