@@ -1,3 +1,41 @@
+/* ===========  Global ============= */
+
+nav ul {
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+a {
+	color: white;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	-ms-transition: color 0.2s ease;
+	-o-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: #087475;
+}
+
+#active-link {
+	border-bottom: 2px solid white;
+	-webkit-transition: border-bottom 0.2s ease;
+	-moz-transition: border-bottom 0.2s ease;
+	-ms-transition: border-bottom 0.2s ease;
+	-o-transition: border-bottom 0.2s ease;
+	transition: border-bottom 0.2s ease;
+}
+
+#active-link:hover {
+	border-bottom: 2px solid #087475;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #faf8f2;
@@ -18,92 +56,19 @@ body {
 	width: 150px;
 }
 
-#iphone-map {
-	width: 270px;
-	margin-top: -45px;
-	margin-right: 120px;
-}
-
-#header h1 {
-	color: white;
-}
-
-#contact-header-text h1 {
-	color: white;
-	font-weight: 300;
-	font-size: 60px;
-	margin-top: 45px;
-	margin-bottom: 5px;
-	font-family: 'Rokkitt', serif;
-}
-
-#contact-header-text p {
-	font-family: 'Rokkitt', serif;
-	color: white;
-	font-weight: 100;
-	font-size: 30px;
-}
-
-#landing-page-text {
-	margin-top: 40px;
-	padding-left: 130px;
-}
-
-#landing-page-text h1 {
-	font-family: 'Hind', sans-serif;
-	font-weight: 700;
-}
-
 .text-shadow {
 	text-shadow: 1px 1px 1px black;
 }
 
-#contact-header-container {
-	background: url(../assets/contact-hero.jpg);
-	background-size: cover;
+.panel {
+	padding: 30px;
 }
 
-#contact-form {
-	width: 700px;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
+.panel form input {
+	margin-bottom: 0;
 }
 
-/* Main Container Contents */
-
-.main-title {
-	color: #0d515c;
-	padding: 20px 0 20px 0;
-}
-
-#main-container .spacing {
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-
-#main-container h2 {
-	text-align: center;
-	margin-bottom: 20px;
-	font-family: 'Hind', sans-serif;
-	font-weight: 700;
-}
-
-#main-container p {
-	text-align: justify;
-}
-
-#mobile-container img, #mobile-container p {
-	float: left;
-}
-
-#founders-container h3 {
-	text-align: center;
-}
-
-#founders-container p {
-	font-size: .8rem;
-}
+/* =========== Nav Menu: global ============= */
 
 nav ul {
 	list-style-type: none;
@@ -142,6 +107,118 @@ a:hover {
 	border-bottom: 2px solid #087475;
 }
 
+/* =========== footer: global ============= */
+
+#footer-container {
+	background: #0d515c;
+}
+
+#footer {
+	color: white;
+	padding: 30px 0px;	
+}
+
+.social-icon {
+	margin: 5px;
+	width: 45px;
+}
+
+#fine-print {
+	font-size: 14px;
+	margin-top: 80px;
+}
+
+/* =========== Landing Page: index ============= */
+
+#iphone-map {
+	width: 270px;
+	margin-top: -45px;
+	margin-right: 120px;
+}
+
+#header h1 {
+	color: white;
+}
+
+#landing-page-text {
+	margin-top: 40px;
+	padding-left: 130px;
+}
+
+#landing-page-text h1 {
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+}
+
+/* =========== Main Container ============= */
+
+.main-title {
+	color: #0d515c;
+	padding: 20px 0 20px 0;
+}
+
+#main-container .spacing {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#main-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+}
+
+#main-container p {
+	text-align: justify;
+}
+
+/* =========== Mobile Container: index ============= */
+
+#mobile-container img, #mobile-container p {
+	float: left;
+}
+
+/* =========== Founders Container: about ============= */
+
+#founders-container h3 {
+	text-align: center;
+}
+
+#founders-container p {
+	font-size: .8rem;
+}
+
+/* =========== Contact Container: contact ============= */
+
+#contact-header-container {
+	background: url(../assets/contact-hero.jpg);
+	background-size: cover;
+}
+
+#contact-header-text h1 {
+	color: white;
+	font-weight: 300;
+	font-size: 60px;
+	margin-top: 45px;
+	margin-bottom: 5px;
+	font-family: 'Rokkitt', serif;
+}
+
+#contact-header-text p {
+	font-family: 'Rokkitt', serif;
+	color: white;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+#contact-form {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 form textarea {
 	height: 100px;
 }
@@ -171,35 +248,4 @@ form .action-button {
 
 form .action-button:hover {
 	background: #023e47;
-}
-
-.panel {
-	padding: 30px;
-}
-
-.panel form input {
-	margin-bottom: 0;
-}
-
-#news-signup h2 {
-	font-family: 'Rokkitt', serif;
-}
-
-#footer-container {
-	background: #0d515c;
-}
-
-#footer {
-	color: white;
-	padding: 30px 0px;	
-}
-
-.social-icon {
-	margin: 5px;
-	width: 45px;
-}
-
-#fine-print {
-	font-size: 14px;
-	margin-top: 80px;
 }
