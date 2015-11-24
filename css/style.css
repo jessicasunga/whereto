@@ -206,18 +206,19 @@ a:hover {
 
 /* =========== Mission Container: about ============= */
 
-#mission-container .panel {
+#mission-container {
 	background-color: transparent;
 	border-width: 3px;
 	border-color: #fff;
 	text-align: center;
-	margin-top: 50px;
 }
 
 #mission-container h1 {
 	font-family: 'Hind', sans-serif;
 	font-weight: 700;
 	font-size: 2.5rem;
+	margin-bottom: 5px;
+	margin-top: 45px;
 }
 
 #mission-container p {
