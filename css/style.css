@@ -70,7 +70,12 @@ body {
 	margin-bottom: 40px;
 }
 
-/* Main Container */
+/* Main Container Contents */
+
+.main-title {
+	color: #0d515c;
+	padding: 20px 0 20px 0;
+}
 
 #main-container .spacing {
 	margin-top: 40px;
@@ -86,6 +91,10 @@ body {
 
 #main-container p {
 	text-align: justify;
+}
+
+#mobile-container img, #mobile-container p {
+	float: left;
 }
 
 nav ul {
