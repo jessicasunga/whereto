@@ -12,14 +12,22 @@ body {
 	height: 500px;
 }
 
+#header img {
+	width: 150px;
+}
+
 #header-text h1 {
 	color: white;
 	font-weight: 300;
-	font-size: 48px;
-	text-shadow: 1px 1px 1px black;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	font-size: 60px;
+	margin: 10px 0px;
+	font-family: 'Rokkitt', serif;
 }
+
+#header-text p {
+	font-family: 'Rokkitt', serif;
+}
+
 
 #landing-page-text h1 {
 	font-family: 'Hind', sans-serif;
@@ -29,13 +37,23 @@ body {
 #header-text p {
 	color: white;
 	font-weight: 100;
-	font-size: 28px;
+	font-size: 30px;
+}
+
+.text-shadow {
 	text-shadow: 1px 1px 1px black;
 }
 
 #contact-header-container {
 	background: url(../assets/contact-hero.jpg);
 	background-size: cover;
+}
+
+#contact-form {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 /* Main Container */
@@ -121,12 +139,11 @@ form .action-button:hover {
 
 #footer-container {
 	background: #0d515c;
-	height: 300px;
 }
 
 #footer {
 	color: white;
-	padding: 40px 0px;	
+	padding: 30px 0px;	
 }
 
 .social-icon {
@@ -135,7 +152,8 @@ form .action-button:hover {
 }
 
 #fine-print {
-	font-size: 18px;
+	font-size: 14px;
+	margin-top: 80px;
 }
 
 #fine-print a {
