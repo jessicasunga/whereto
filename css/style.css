@@ -131,10 +131,15 @@ form .action-button:hover {
 
 .panel {
 	margin: 40px 0px;
+	padding: 30px;
 }
 
 .panel form input {
 	margin-bottom: 0;
+}
+
+#news-signup h2 {
+	font-family: 'Rokkitt', serif;
 }
 
 #footer-container {
