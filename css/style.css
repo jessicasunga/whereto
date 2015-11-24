@@ -20,7 +20,8 @@ body {
 	color: white;
 	font-weight: 300;
 	font-size: 60px;
-	margin: 10px 0px;
+	margin-top: 45px;
+	margin-bottom: 5px;
 	font-family: 'Rokkitt', serif;
 }
 
@@ -131,7 +132,7 @@ form .action-button:hover {
 
 .panel {
 	margin: 40px 0px;
-	padding: 30px;
+	padding-left: 30px;
 }
 
 .panel form input {
@@ -159,8 +160,4 @@ form .action-button:hover {
 #fine-print {
 	font-size: 14px;
 	margin-top: 80px;
-}
-
-#fine-print a {
-	margin: 0 10px;
 }
