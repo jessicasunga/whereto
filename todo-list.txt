@@ -1,7 +1,6 @@
 Todo List:
 	- Jess
-		- Hi-def wireframes
-			- Grayscale digital wireframes
+		o Wireframes
 		- Finish content & copy
 		- Create other branding assets
 			- Mobile interface screen
@@ -11,30 +10,34 @@ Todo List:
 			- Etc.
 		- Website development
 			- Home page
-				- Coding the animation for the tagline
+				- Coding the JS animation for the tagline
 			- About page
 	- Alex
-		- Add swooshy lines to the logo
+		x Add swooshy lines to the logo
 			- Make it look like it's in motion
 			+ This can come later
-		- Make a hi-def mockup from Jess' wireframes
+		x Make a hi-def mockup from Jess' wireframes
+			+ May not be necessary
 		- Website development
-			- Learn more / features page
+			- Features page
 			- Contact page
-				- Name
-				- Email
-				- Message
+				o Name
+				o Email
+				o Message
 		- Content & copy supplementals
-		o Add website graphic design assets
-			o Photos
-				o Tablet (Microsoft surface?)
-				o iPhone
-				o Android Nexus 6p
-		- Update MVP to reflect the new color scheme
-		- Put the updated MVP on GitHub
-
+		- Find some Google fonts to use
+		- The Pinterest social icon is smaller than the other two
+		
 
 Done List:
 	o Added foundation
 	o Use GitHub
 	o Paper wireframes
+	o Make the social icons smaller
+	o Add website graphic design assets to github
+		o Photos
+			o Tablet (Microsoft surface?)
+			o iPhone
+			o Android Nexus 6p
+	o Update MVP to reflect the new color scheme
+	o Put the updated MVP on GitHub

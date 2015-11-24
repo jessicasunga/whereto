@@ -19,6 +19,10 @@
 		<!-- Font -->
 		<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Cantarell' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Hind:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/fav-icon-source.png">
 	</head>
 
 	<body>
@@ -28,12 +32,12 @@
 			<div id="header">
 				<div class="row"> 
 					<div class="small-12 medium-4 columns">
-						<a href="index.html"><img src="assets/logo.png" alt="Whereto" width="150" /></a>
+						<a href="index.html"><img id="logo" src="assets/logo.png" alt="Whereto" /></a>
 					</div>
 					<div class="small-12 medium-8 columns text-right">
 						<nav>
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html" id="active-link">Home</a></li>
 								<li><a href="features.html">Features</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="contact.html">Contact</a></li>
@@ -43,12 +47,12 @@
 				</div>
 				<div class="row">
 					<div class="small-12 medium-6 columns" id="landing-page-text">
-						<h1> Ever wondered...</h1>
-						<p> what to do on a Friday night? </p>
-						<h1> We got you covered. </h1>
+						<h1>Ever wondered...</h1>
+						<p>what to do on a Friday night?</p>
+						<h1>We got you covered.</h1>
 					</div>
-					<div class="small-12 medium-6 columns">
-						<img src="http://fillmurray.com/550/300"></img>
+					<div class="small-12 medium-6 columns text-right">
+						<img id="iphone-map" src="assets/iphone-map.png" alt="Whereto" />
 					</div>
 				</div>
 			</div>
@@ -70,7 +74,7 @@
 				<div class="small-12 medium-6 columns">
 					<h2>Coming Soon</h2>
 				</div>
-				<div class="small-12 medium-6 columns">
+				<div id="news-signup" class="small-12 medium-6 columns panel radius">
 					<h2>Sign up for news</h2>
 					<div class="small-12 medium-8 medium-centered columns">
 						<form>
@@ -79,6 +83,12 @@
 							<input class="action-button" type="submit" value="Submit" />
 						</form>
 					</div>
+					<form>
+						<label for="email">Your Email</label>
+						<input type="text" name="email" placeholder="Enter your email" />
+						<br />
+						<input class="action-button" type="submit" value="Submit" />
+					</form>
 				</div>
 			</div>
 		</div>
@@ -91,15 +101,15 @@
 			<div id="footer">
 				<div class="row">
 					<div class="small-12 medium-6 columns">
-						<span>Follow us on:</span>
-						<a href="#"><img class="social-icon" src="assets/social-icons/facebook.png" alt="Facebook" width="60" /></a>
-						<a href="#"><img class="social-icon" src="assets/social-icons/twitter.png" alt="Twitter" width="60" /></a>
-						<a href="#"><img class="social-icon" src="assets/social-icons/pinterest.png" alt="Pinterest" width="60" /></a>
+						<span><em>Follow us on:</em></span>
+						<a href="#"><img class="social-icon" src="assets/social-icons/facebook.png" alt="Facebook" /></a>
+						<a href="#"><img class="social-icon" src="assets/social-icons/twitter.png" alt="Twitter" /></a>
+						<a href="#"><img class="social-icon" src="assets/social-icons/pinterest.png" alt="Pinterest" /></a>
 					</div>
 					<div class="small-12 medium-6 columns">
 						<nav class="text-right">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html" id="active-link">Home</a></li>
 								<li><a href="features.html">Features</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="contact.html">Contact</a></li>
@@ -109,34 +119,34 @@
 				</div>
 				<div class="row">
 					<div id="fine-print" class="small-12 text-center">
-						<br />
-						<br />
-						<span>
-							<a href="#">
-								terms
-							</a>
-							|
-							<a href="#">
-								privacy
-							</a>
-							|
-							<a href="#">
-								press kit
-							</a>
-							|
-							<a href="#">
-								company
-							</a>
-						</span>
-						<br /><br />
-						<span>
-							&copy; Whereto 2015. All Rights Reserved.
-						</span>
+						<div class="large-6 columns left text-left">
+							<span>
+								<a href="#">
+									terms
+								</a>
+								|
+								<a href="#">
+									privacy
+								</a>
+								|
+								<a href="#">
+									press kit
+								</a>
+								|
+								<a href="#">
+									company
+								</a>
+							</span>
+						</div>
+						<div class="large-6 columns right text-right">
+							<span>
+								&copy; Whereto 2015. All Rights Reserved.
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- End Footer -->
-
 	</body>
 </html>

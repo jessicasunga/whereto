@@ -18,6 +18,10 @@
 
 		<!-- Font -->
 		<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Cantarell' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/fav-icon-source.png">
 	</head>
 
 	<body>
@@ -26,22 +30,22 @@
 			<div id="header">
 				<div class="row">
 					<div class="small-12 medium-4 columns">
-						<a href="index.html"><img src="assets/logo.png" alt="Whereto" width="200" /></a>
+						<a href="index.html"><img id="logo" src="assets/logo.png" alt="Whereto" /></a>
 					</div>
 					<div class="small-12 medium-8 columns">
-						<nav class="text-right">
+						<nav class="text-right text-shadow">
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="features.html">Features</a></li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.html" id="active-link">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
 				</div>
-				<div id="header-text" class="row">
-					<h1 class="text-center">Contact Us</h1>
-					<p class="text-center">We'd love to hear from you. Drop us a line using the form below.</p>
+				<div id="contact-header-text" class="row">
+					<h1 class="text-center text-shadow">Contact Us</h1>
+					<p class="text-center text-shadow">We'd love to hear from you. Drop us a line using the form below.</p>
 				</div>
 			</div>
 		</div>
@@ -49,7 +53,7 @@
 
 		<!-- Begin Contact Form -->
 		<div class="row">
-			<div class="panel radius">
+			<div id="contact-form" class="panel radius">
 				<form>
 					<label for="name">Your Name</label>
 					<input type="text" name="name" placeholder="Enter your name" />
@@ -71,10 +75,10 @@
 			<div id="footer">
 				<div class="row">
 					<div class="small-12 medium-6 columns">
-						<span>Follow us on:</span>
-						<a href="#"><img class="social-icon" src="assets/social-icons/facebook.png" alt="Facebook" width="60" /></a>
-						<a href="#"><img class="social-icon" src="assets/social-icons/twitter.png" alt="Twitter" width="60" /></a>
-						<a href="#"><img class="social-icon" src="assets/social-icons/pinterest.png" alt="Pinterest" width="60" /></a>
+						<span><em>Follow us on:</em></span>
+						<a href="#"><img class="social-icon" src="assets/social-icons/facebook.png" alt="Facebook" /></a>
+						<a href="#"><img class="social-icon" src="assets/social-icons/twitter.png" alt="Twitter" /></a>
+						<a href="#"><img class="social-icon" src="assets/social-icons/pinterest.png" alt="Pinterest" /></a>
 					</div>
 					<div class="small-12 medium-6 columns">
 						<nav class="text-right">
@@ -82,36 +86,37 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="features.html">Features</a></li>
 								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact.html" id="active-link">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
 				</div>
 				<div class="row">
 					<div id="fine-print" class="small-12 text-center">
-						<br />
-						<br />
-						<span>
-							<a href="#">
-								terms
-							</a>
-							|
-							<a href="#">
-								privacy
-							</a>
-							|
-							<a href="#">
-								press kit
-							</a>
-							|
-							<a href="#">
-								company
-							</a>
-						</span>
-						<br /><br />
-						<span>
-							&copy; Whereto 2015. All Rights Reserved.
-						</span>
+						<div class="large-6 columns left text-left">
+							<span>
+								<a href="#">
+									terms
+								</a>
+								|
+								<a href="#">
+									privacy
+								</a>
+								|
+								<a href="#">
+									press kit
+								</a>
+								|
+								<a href="#">
+									company
+								</a>
+							</span>
+						</div>
+						<div class="large-6 columns right text-right">
+							<span>
+								&copy; Whereto 2015. All Rights Reserved.
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>

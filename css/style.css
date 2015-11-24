@@ -11,15 +11,40 @@ body {
 #header {
 	padding-top: 20px;
 	height: 500px;
+	color: white;
 }
 
-#header-text h1 {
+#logo {
+	width: 150px;
+}
+
+#iphone-map {
+	width: 270px;
+	margin-top: -45px;
+}
+
+#header h1 {
+	color: white;
+}
+
+#contact-header-text h1 {
 	color: white;
 	font-weight: 300;
-	font-size: 48px;
-	text-shadow: 1px 1px 1px black;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	font-size: 60px;
+	margin-top: 45px;
+	margin-bottom: 5px;
+	font-family: 'Rokkitt', serif;
+}
+
+#contact-header-text p {
+	font-family: 'Rokkitt', serif;
+	color: white;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+#landing-page-text {
+	margin-top: 40px;
 }
 
 #landing-page-text h1 {
@@ -27,16 +52,20 @@ body {
 	font-weight: 700;
 }
 
-#header-text p {
-	color: white;
-	font-weight: 100;
-	font-size: 28px;
+.text-shadow {
 	text-shadow: 1px 1px 1px black;
 }
 
 #contact-header-container {
 	background: url(../assets/contact-hero.jpg);
 	background-size: cover;
+}
+
+#contact-form {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 /* Main Container */
@@ -65,7 +94,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	padding: 0px 15px;
+	padding-left: 30px;
 }
 
 a {
@@ -79,6 +108,19 @@ a {
 
 a:hover {
 	color: #087475;
+}
+
+#active-link {
+	border-bottom: 2px solid white;
+	-webkit-transition: border-bottom 0.2s ease;
+	-moz-transition: border-bottom 0.2s ease;
+	-ms-transition: border-bottom 0.2s ease;
+	-o-transition: border-bottom 0.2s ease;
+	transition: border-bottom 0.2s ease;
+}
+
+#active-link:hover {
+	border-bottom: 2px solid #087475;
 }
 
 form textarea {
@@ -113,32 +155,32 @@ form .action-button:hover {
 }
 
 .panel {
-	margin: 40px 0px;
+	padding: 30px;
 }
 
 .panel form input {
 	margin-bottom: 0;
 }
 
+#news-signup h2 {
+	font-family: 'Rokkitt', serif;
+}
+
 #footer-container {
 	background: #0d515c;
-	height: 300px;
 }
 
 #footer {
 	color: white;
-	padding: 40px 0px;
+	padding: 30px 0px;	
 }
 
 .social-icon {
 	margin: 5px;
-
+	width: 45px;
 }
 
 #fine-print {
-	font-size: 18px;
-}
-
-#fine-print a {
-	margin: 0 10px;
+	font-size: 14px;
+	margin-top: 80px;
 }
