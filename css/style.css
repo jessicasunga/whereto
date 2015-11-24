@@ -97,6 +97,14 @@ body {
 	float: left;
 }
 
+#founders-container h3 {
+	text-align: center;
+}
+
+#founders-container p {
+	font-size: .8rem;
+}
+
 nav ul {
 	list-style-type: none;
 	font-size: 18px;
