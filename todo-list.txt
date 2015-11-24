@@ -21,11 +21,12 @@ Todo List:
 		- Website development
 			- Features page
 			- Contact page
-				- Name
-				- Email
-				- Message
+				o Name
+				o Email
+				o Message
 		- Content & copy supplementals
 		- Find some Google fonts to use
+		- The Pinterest social icon is smaller than the other two
 		
 
 Done List:
