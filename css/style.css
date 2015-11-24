@@ -189,6 +189,26 @@ a:hover {
 	font-size: .8rem;
 }
 
+/* =========== Founders Container: about ============= */
+
+#mission-container .panel {
+	background-color: transparent;
+	border-width: 3px;
+	border-color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#mission-container h1 {
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+#mission-container p {
+	text-align: justify;
+}
+
 /* =========== Contact Container: contact ============= */
 
 #contact-header-container {
