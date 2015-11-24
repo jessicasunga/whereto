@@ -126,12 +126,12 @@ form .action-button:hover {
 
 #footer {
 	color: white;
-	padding: 40px 0px;
+	padding: 40px 0px;	
 }
 
 .social-icon {
 	margin: 5px;
-
+	width: 45px;
 }
 
 #fine-print {
