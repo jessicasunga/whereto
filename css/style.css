@@ -253,14 +253,12 @@ a:hover {
 	margin-right: auto;
 }
 
-/* =========== About Header Container: about ============= */
+/* =========== About ============= */
 
 #about-header-container {
 	background: url(../assets/about-hero.jpg);
 	background-size: cover;
 }
-
-/* =========== Founders Container: about ============= */
 
 #founders-container img {
 	-webkit-border-radius: 50%;
@@ -277,8 +275,6 @@ a:hover {
 #founders-container p {
 	font-size: .8rem;
 }
-
-/* =========== Mission Container: about ============= */
 
 #mission-container {
 	background-color: transparent;
@@ -299,7 +295,7 @@ a:hover {
 	text-align: justify;
 }
 
-/* =========== Contact Container: contact ============= */
+/* =========== Contact ============= */
 
 #contact-header-container {
 	background: url(../assets/contact-hero2-shorter.jpg?1);
