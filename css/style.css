@@ -164,15 +164,13 @@ a:hover {
 	font-weight: 700;
 }
 
-/* bad css! stay. stay. no biting!*/
-#no-panel #mobile-container {
-	border: none;
-	background-color: transparent;
+#mobile-container {
+	margin-bottom: 25px;
 }
 
 #mobile-container img {
 	width: 250px;
-	padding: 10px 0 10px 0;
+	padding: 20px 0 10px 0;
 }
 
 
