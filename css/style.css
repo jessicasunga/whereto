@@ -139,6 +139,11 @@ a:hover {
 
 /* =========== Landing Page: index ============= */
 
+#landing-header-container {
+	background: url(../assets/landing-map.png);
+	background-size: cover;
+}
+
 #iphone-map {
 	width: 270px;
 	margin-top: -45px;
