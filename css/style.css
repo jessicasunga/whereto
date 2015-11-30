@@ -295,6 +295,10 @@ a:hover {
 	border-radius: 50%;
 }
 
+.founders-container h3 {
+	color: #0d515c;
+}
+
 .founders-container p {
 	font-size: .8rem;
 }
