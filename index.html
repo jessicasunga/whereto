@@ -11,6 +11,10 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<!-- JS -->
+		<script src="foundation/js/vendor/modernizr.js"></script>
+		<script src="foundation/js/vendor/jquery.js"></script>
+
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="foundation/css/foundation.css" media="all">
 		<link rel="stylesheet" href="foundation/css/normalize.css" media="all">
@@ -22,6 +26,48 @@
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/fav-icon-source.png">
+
+		<!-- JQuery -->
+		<script type="text/javascript">
+			(function($){
+			    $.fn.extend({ 
+			        rotaterator: function(options) {
+			 
+			            var defaults = {
+			                fadeSpeed: 100,
+			                pauseSpeed: 1000,
+							child:null
+			            };
+			             
+			            var options = $.extend(defaults, options);
+			         
+			            return this.each(function() {
+			                  var o =options;
+			                  var obj = $(this);                
+			                  var items = $(obj.children(), obj);
+							  items.each(function() {$(this).hide();})
+							  if(!o.child){var next = $(obj).children(':first');
+							  }else{var next = o.child;
+							  }
+							  $(next).fadeIn(o.fadeSpeed, function() {
+									$(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+										var next = $(this).next();
+										if (next.length == 0){
+												next = $(obj).children(':first');
+										}
+										$(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+									})
+								});
+			            });
+			        }
+			    });
+			})(jQuery);
+
+			 $(document).ready(function() {
+			        $('#rotate').rotaterator({fadeSpeed:1000, pauseSpeed:7000});
+			 });
+
+		</script>
 	</head>
 
 	<body>
@@ -46,8 +92,15 @@
 				<div class="row">
 					<div class="small-12 medium-6 columns text-shadow" id="landing-page-text">
 						<h1>Ever wondered...</h1>
-						<p>what to do on a Friday night?</p>
-						<h1>We got you covered.</h1>
+						<p>
+							<div id="rotate">
+								<div>What to do on a Friday night out in town?</div>
+								<div>How to share a roadtrip with your friends?</div>
+								<div>The locations in your city that have had movies filmed there?</div>
+								<div>How your cousin's trip to the Rocky Mountains panned out?</div>
+							</div>
+						</p>
+						<h2>We got you covered.</h2>
 					</div>
 					<div class="small-12 medium-6 columns text-right">
 						<img id="iphone-map" src="assets/iphone-landing.png" alt="Whereto" />

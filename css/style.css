@@ -150,10 +150,6 @@ a:hover {
 	margin-right: 120px;
 }
 
-#header h1 {
-	color: white;
-}
-
 #landing-page-text {
 	margin-top: 40px;
 	padding-left: 130px;
@@ -162,6 +158,19 @@ a:hover {
 #landing-page-text h1 {
 	font-family: 'Hind', sans-serif;
 	font-weight: 700;
+	font-size: 2.3rem;
+	color: white;
+}
+
+#landing-page-text h2 {
+	font-family: 'Hind', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 1.5rem;
+}
+
+#landing-page-text #rotate div {
+	font-size: 1.3rem;
 }
 
 #mobile-container {
